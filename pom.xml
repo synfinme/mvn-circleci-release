@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.synfin.circleci</groupId>
-    <artifactId>mvn-circleci-proj</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>mvn-circleci-release</artifactId>
+    <version>0.1-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
