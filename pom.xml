@@ -21,9 +21,8 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:synfinme/mvn-circleci-release.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/synfinme/mvn-circleci-release.git</developerConnection>
         <url>https://github.com/synfinme/mvn-circleci-release</url>
-        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
