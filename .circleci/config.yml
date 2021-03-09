@@ -29,11 +29,11 @@ jobs:
       #    command: mvn deploy -s .circleci/settings.xml
       - run:
           name: Setup of user.name for Git
-          command: git user.name "CircleCI build"
+          command: git config user.name "CircleCI build"
 
       - run:
           name: Setup of user.email for Git
-          command: git user.email "automagic@circleci.com"
+          command: git config user.email "automagic@circleci.com"
 
       - run:
           name: Prepare Release
