@@ -100,4 +100,15 @@
             <url>packagecloud+https://packagecloud.io/synfinme/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <!--
+    ## The following section ought to go to .m2/settings.xml (or similar):
+    <servers>
+        <server>
+            <id>sf-github-com</id>
+            <username>${env.GH_USER}</username>
+            <password>${env.GH_PASS}</password>
+        </server>
+    </servers>
+    -->
 </project>
