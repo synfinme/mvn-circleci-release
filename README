@@ -1,0 +1,5 @@
+
+Please ensure the following envvars are set:
+  + PCLOUD   -- Packagecloud API key
+  + GH_USER  -- Github username (for 'developerConnection)
+  + GH_PASS  -- Github password (for 'developerConnection)

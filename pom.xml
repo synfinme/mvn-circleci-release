@@ -21,7 +21,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/synfinme/mvn-circleci-release.git</developerConnection>
         <url>https://github.com/synfinme/mvn-circleci-release</url>
-        <!-- XXX auth check attempt #00 -->
+        <!-- XXX auth check attempt #01 -->
       <tag>HEAD</tag>
   </scm>
 
