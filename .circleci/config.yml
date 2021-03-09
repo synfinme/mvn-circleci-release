@@ -29,11 +29,11 @@ jobs:
       #    command: mvn deploy -s .circleci/settings.xml
       - run:
           name: Prepare Release
-          command: mvn release:prepare -s .circleci/settings.xml
+          command: mvn --batch-mode release:prepare -s .circleci/settings.xml
 
       - run:
           name: Perform Release
-          command: mvn release:perform -s .circleci/settings.xml
+          command: mvn --batch-mode release:perform -s .circleci/settings.xml
 
 workflows:
   # Below is the definition of your workflow.
