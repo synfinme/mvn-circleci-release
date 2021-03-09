@@ -4,7 +4,7 @@
 
     <groupId>me.synfin.circleci</groupId>
     <artifactId>mvn-circleci-release</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +22,7 @@
         <developerConnection>scm:git:https://github.com/synfinme/mvn-circleci-release.git</developerConnection>
         <url>https://github.com/synfinme/mvn-circleci-release</url>
         <!-- XXX auth check attempt #01 -->
-      <tag>HEAD</tag>
+      <tag>mvn-circleci-release-0.4</tag>
   </scm>
 
     <dependencies>
